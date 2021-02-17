@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/lzw/ur_ws/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/lzw/ur_ws/src/Universal_Robots_ROS_Driver/controller_stopper/include/**",
+        "/home/lzw/ur_ws/src/gazebo_grasp_plugin/include/**",
+        "/home/lzw/ur_ws/src/robotiq/robotiq_85_gripper/robotiq_85_simulation/roboticsgroup_gazebo_plugins/include/**",
+        "/home/lzw/ur_ws/src/robotiq/robotiq_ft_sensor/include/**",
+        "/home/lzw/ur_ws/src/Universal_Robots_ROS_Driver/ur_calibration/include/**",
+        "/home/lzw/ur_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/**",
+        "/home/lzw/ur_ws/src/fmauch_universal_robot/ur_kinematics/include/**",
+        "/home/lzw/ur_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
