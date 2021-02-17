@@ -7,9 +7,7 @@
   <!--arg name="robot_description_file" default="$(find ur_description)/launch/ur3_upload.launch" doc="Robot description launch file."/-->
   <!-- startup simulated world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-
-    <arg name="world_name" default="$(find ur_platform_gazebo)/worlds/demo.world"/>
-    <!-- <arg name="world_name" default="$(find ur_platform_gazebo)/worlds/ur_envi.world"/> -->
+    <arg name="world_name" default="$(find ur_platform_gazebo)/worlds/ur_envi.world"/>
     <arg name="paused" value="$(arg paused)"/>
     <arg name="gui" value="$(arg gui)"/>
   </include>
