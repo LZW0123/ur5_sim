@@ -5,13 +5,13 @@
   <xacro:arg name="kinematics_config" default="$(find ur_robot_driver)/calibration/my_robot_calibration.yaml"/>
  
   <xacro:include filename="$(find ur_description)/urdf/common.gazebo.xacro" />
-  <xacro:include filename="$(find ur_description)/urdf/ur3.urdf.xacro" />
+  <xacro:include filename="$(find ur_description)/urdf/ur5.urdf.xacro" />
   <xacro:include filename="$(find robotiq_ft_sensor)/urdf/robotiq_ft300.urdf.xacro" />
   <xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />
-  <!-- <xacro:include filename="$(find pr2_description)/urdf/common.xacro" /> -->
-  <!-- <xacro:include filename="$(find pr2_description)/urdf/sensors/kinect2.urdf.xacro" /> -->
+  <xacro:include filename="$(find pr2_description)/urdf/common.xacro" />
+  <xacro:include filename="$(find pr2_description)/urdf/sensors/kinect2.urdf.xacro" />
 
-  <xacro:ur3_robot prefix="" joint_limited="false"
+  <xacro:ur5_robot prefix="" joint_limited="false"
     transmission_hw_interface="$(arg transmission_hw_interface)"
     kinematics_file="${load_yaml('$(arg kinematics_config)')}"
   />
