@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ur_platform_description
+    relative_path: urdf/ur_platform.urdf1.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/ur_platform.srdf
+  CONFIG:
+    author_name: LZW
+    author_email: 1589598459@qq.com
+    generated_timestamp: 1613807140
