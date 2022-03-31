@@ -1,3 +1,4 @@
+- **Modify the original code repository to adapt to the UR5 robot**
 # Universal robot with robotiq hand workspace
 
 ## Build
@@ -28,18 +29,4 @@ The other terminal
 rosrun ur_platform_manipulation grasp_object.py
 ```
 
-![grasping](images/grasping.gif)
 
-## Camera Images
-
-RGB image
-
-![rbg](images/camera_rgb_image.png)
-
-Depth image
-
-![depth](images/camera_depth_image.png)
-
-## Multiple Arms
-
-![multi_arms](images/multiple_arms.jpg)
